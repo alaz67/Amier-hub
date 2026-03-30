@@ -1,8 +1,8 @@
--- ╔════════════════════════════════════╗
--- ║          SECRET HUB                ║
--- ║   Steal a Brainrot Edition         ║
--- ║   discord.gg/JaFSsHRrU            ║
--- ╚════════════════════════════════════╝
+-- ╔══════════════════════════════════════════════╗
+-- ║              SECRET HUB                      ║
+-- ║       Steal a Brainrot Edition               ║
+-- ║       discord.gg/JaFSsHRrU                   ║
+-- ╚══════════════════════════════════════════════╝
 
 repeat task.wait() until game:IsLoaded()
 
