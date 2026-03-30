@@ -1,8 +1,8 @@
--- ╔══════════════════════════════════════════════════════════════╗
--- ║                    AMIER HUB                                            ║         
--- ║              Steal a Brainrot Edition                                   ║
--- ║              discord.gg/JaFSsHRrU                                       ║
--- ╚══════════════════════════════════════════════════════════════╝
+-- ╔════════════════════════════════════╗
+-- ║          SECRET HUB                ║
+-- ║   Steal a Brainrot Edition         ║
+-- ║   discord.gg/JaFSsHRrU            ║
+-- ╚════════════════════════════════════╝
 
 repeat task.wait() until game:IsLoaded()
 
@@ -391,7 +391,7 @@ end
 -- GUI
 -- ──────────────────────────────────────────────────────────────
 local sg = Instance.new("ScreenGui")
-sg.Name = "AmierHub"
+sg.Name = "SecretHub"
 sg.ResetOnSpawn = false
 sg.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 sg.Parent = Player:FindFirstChildOfClass("PlayerGui") or Player.PlayerGui
@@ -428,7 +428,7 @@ local titleLbl = Instance.new("TextLabel", titleBar)
 titleLbl.Size = UDim2.new(1, -80, 1, 0)
 titleLbl.Position = UDim2.new(0, 12, 0, 0)
 titleLbl.BackgroundTransparency = 1
-titleLbl.Text = "Amier Hub"
+titleLbl.Text = "Secret Hub"
 titleLbl.TextColor3 = WHT
 titleLbl.Font = Enum.Font.GothamBlack
 titleLbl.TextSize = 16
@@ -660,7 +660,7 @@ mkActionBtn(panels["Main"], "Rejoin Job ID", Color3.fromRGB(50,50,80), function(
     pcall(function() ts:Teleport(game.PlaceId, Player) end)
 end)
 mkActionBtn(panels["Main"], "Kick (Y)", RED, function()
-    Player:Kick("Kicked by Amier Hub")
+    Player:Kick("Kicked by Secret Hub")
 end)
 mkActionBtn(panels["Main"], "Reset (X)", Color3.fromRGB(100,50,50), function()
     local hum = getHum()
@@ -696,7 +696,7 @@ mkToggleRow(panels["ESP"], "Proximity Circle (Admin)", "ProximityCircle", nil, n
 local infoLbl = Instance.new("TextLabel", panels["Info"])
 infoLbl.Size = UDim2.new(1, 0, 0, 200)
 infoLbl.BackgroundTransparency = 1
-infoLbl.Text = "Amier Hub
+infoLbl.Text = "Secret Hub
 discord.gg/JaFSsHRrU
 
 Discord link wurde
@@ -733,7 +733,7 @@ local hubLbl = Instance.new("TextLabel", fpsBar)
 hubLbl.Size = UDim2.new(0, 80, 1, 0)
 hubLbl.Position = UDim2.new(0, 22, 0, 0)
 hubLbl.BackgroundTransparency = 1
-hubLbl.Text = "AMIER HUB"
+hubLbl.Text = "SECRET HUB"
 hubLbl.TextColor3 = WHT
 hubLbl.Font = Enum.Font.GothamBlack
 hubLbl.TextSize = 11
@@ -1014,7 +1014,7 @@ makeDraggable(quickPanel)
 
 local qTitle = Instance.new("TextLabel", quickPanel)
 qTitle.Size = UDim2.new(1, 0, 0, 30)
-qTitle.BackgroundTransparency = 1; qTitle.Text = "Amier Hub"
+qTitle.BackgroundTransparency = 1; qTitle.Text = "Secret Hub"
 qTitle.TextColor3 = BLUE; qTitle.Font = Enum.Font.GothamBlack; qTitle.TextSize = 14; qTitle.ZIndex = 11
 
 local qScroll = Instance.new("ScrollingFrame", quickPanel)
@@ -1098,7 +1098,7 @@ UserInputService.InputBegan:Connect(function(inp, gpe)
         local hum = getHum()
         if hum then hum:ChangeState(Enum.HumanoidStateType.Ragdoll) end
     end
-    if k == Enum.KeyCode.Y then Player:Kick("Kicked by Amier Hub") end
+    if k == Enum.KeyCode.Y then Player:Kick("Kicked by Secret Hub") end
     if k == Enum.KeyCode.X then
         local hum = getHum(); if hum then hum.Health = 0 end
     end
@@ -1119,4 +1119,4 @@ Player.CharacterAdded:Connect(function()
     if T.Aimbot then stopAimbot(); task.wait(0.1); startAimbot() end
 end)
 
-print("[AMIER HUB] Loaded! discord.gg/JaFSsHRrU | U=Toggle")
+print("[SECRET HUB] Loaded! discord.gg/JaFSsHRrU | U=Toggle")
