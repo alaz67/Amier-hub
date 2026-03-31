@@ -690,18 +690,7 @@ mkToggle(panels["Misc"], "No Animations",    "NoAnim",      startNoAnim, stopNoA
 local infoLbl = Instance.new("TextLabel", panels["Info"])
 infoLbl.Size = UDim2.new(1, 0, 0, 120)
 infoLbl.BackgroundTransparency = 1
-infoLbl.Text = "Secret Hub
-discord.gg/JaFSsHRrU
-
-Discord link auto-copied!
-
-Keybinds:
-U = Toggle
-T = Teleport
-R = Ragdoll
-Y = Kick
-X = Reset
-E = Speed"
+infoLbl.Text = "Secret Hub | discord.gg/JaFSsHRrU | Discord auto-copied! | U=Toggle T=TP R=Ragdoll Y=Kick X=Reset E=Speed"
 infoLbl.TextColor3 = WHT
 infoLbl.Font = Enum.Font.GothamBold
 infoLbl.TextSize = 12
